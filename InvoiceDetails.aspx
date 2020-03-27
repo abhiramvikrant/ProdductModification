@@ -66,12 +66,12 @@ div h1{
     <form runat="server">
         <div class="container-fluid nomargin">
        <div class="row" >
- <nav class="navbar navbar-inverse nomargin" style="background-color:#3781a8; color:white;font-weight:bold" >
+ <nav class="header-navbar navbar-expand-md navbar navbar-with-menu fixed-top navbar-semi-light bg-gradient-x-grey-blue shadow" style="background-color:#3781a8; color:white;font-weight:bold" >
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" style="background-color:#3781a8; color:white;font-weight:bold"  href="#">Fil Flan Technologies</a>
     </div>
-    <ul class="nav navbar-nav ml-2 whitebold" style="background-color:#3781a8;" >
+    <ul class="nav navbar-nav ml-2 whitebold float-right" style="background-color:#3781a8;" >
      
       <li class="dropdown"><a class="dropdown-toggle whitebold" data-toggle="dropdown" href="#">Invoice Menu <span class="caret"></span></a>
         <ul class="dropdown-menu whitebold" >
@@ -107,23 +107,23 @@ div h1{
              
     <div class="row" style="">
 <div class="col-md-9   split left" style="text-align:center; vertical-align:middle;padding=10px;margin-top:50px" id="leftDiv" >
-
+    
     <img src="img/report.JPG" alt="report" />
     
 
 </div>
 
 <div class="row col-md-3  split right"  style="height:100%;" id="rightDiv">
-  <div class="col-md-12">
+
      <div class="row">
          <div class="col-md-12 m-4 form-control whitebold" style="background-color:#3781a8" >
              <div class="table">
              <a  class="fa fa-trash-o" style="font-size:16px;color:white" href="#"></a>
-            <b>Reassign:</b> <asp:DropDownList runat="server"><asp:ListItem>INVOICE</asp:ListItem></asp:DropDownList>&nbsp;
+            <b>Re-assign</b> <asp:DropDownList runat="server" BackColor="#3781a8"><asp:ListItem>INVOICE</asp:ListItem></asp:DropDownList>&nbsp;
               <a  class="fa fa-plus whitebold" style="font-size:16px;"  href="#"></a>&nbsp;
              <a  class="fa fa-plus whitebold" style="font-size:16px; " href="#"></a>&nbsp;
              <a  class="fa fa-minus-circle whitebold" style="font-size:16px;" href="#"></a>&nbsp;
-             <a  class="fa fa-trash-o whitebold" style="font-size:16px; " href="#"></a>&nbsp;
+             <a  class="fa fa-trash-o" style="font-size:16px; color:white;" href="#"></a>&nbsp;
                           <a  class="fa fa-arrow-up whitebold" style="font-size:16px;" href="#"></a>&nbsp;
                           <a  class="fa fa-arrow-down whitebold" style="font-size:16px; " href="#"></a>&nbsp;
                          </div> <div class="row">&nbsp;</div>
@@ -131,7 +131,7 @@ div h1{
       </div>
      </div>
      
-      </div>
+     
      
      <div class="row">
          <div class="col-md-12">
@@ -201,12 +201,13 @@ div h1{
          </div>
      </div>
     <div class="row">&nbsp;</div>
+    <div class="row">
         <div class="col-md-12">
            <button class="btn btn-primary">Submit</button>
          </div>
      </div>
               <div class="row">
-         <div class="col-md-12">
+         <div class="col-md-12" style="padding-left:0px;margin:0px">
             <label class="control-label"> &nbsp;</label>
             
          </div>
@@ -215,8 +216,7 @@ div h1{
 
 </div>
         </div>
-            </div>
-              </div>
+         
 
      </form>
 </body>
