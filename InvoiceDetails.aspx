@@ -119,7 +119,7 @@ div h1{
      <div class="row">
          <div class="col-md-12 m-4 form-control whitebold" style="background-color:#3781a8" >
              <div class="table">
-             <a  class="fa fa-trash-o" style="font-size:16px;color:white" href="#"></a>
+             <a  class="fa fa-trash-o" style="font-size:16px;color:white" href="#"></a> &nbsp;
             <b>Re-assign</b> <asp:DropDownList runat="server" BackColor="#3781a8"><asp:ListItem>INVOICE</asp:ListItem></asp:DropDownList>&nbsp;
               <a  class="fa fa-plus whitebold" style="font-size:16px;"  href="#"></a>&nbsp;
              <a  class="fa fa-plus whitebold" style="font-size:16px; " href="#"></a>&nbsp;
