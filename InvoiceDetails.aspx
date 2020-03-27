@@ -102,6 +102,7 @@ div h1{
            <div class="row">
                <label>Thumbnail comes here</label>
            </div>
+           </div>
            <hr class="bg-success" />
           <div class="container-fluid">
              
@@ -216,7 +217,7 @@ div h1{
 
 </div>
         </div>
-         
+         </div>
 
      </form>
 </body>
