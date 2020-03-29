@@ -28,10 +28,19 @@
         </div>
         
         <!-- Modal body -->
-        <div class="modal-body">
-            <div class="row col-md-12 mb-4">Login <asp:TextBox ID="txtLogin" runat="server" /></div>
-            <div class="row  col-md-12 mb-4">Password <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" /></div>
-            <div class="row col-md-12 mb-4"><asp:Button runat="server" ID="btnLogin" Text="Login" /></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-4 "><label>Login</label><br /> <asp:TextBox ID="txtLogin" runat="server" CssClass="form-control" /></div>
+                </div>
+            <div class="row">
+                <div class="col-md-12 mb-4"><label>Password</label><br /> <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" CssClass="form-control" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-4"><asp:Button runat="server" ID="btnLogin" Text="Login" CssClass="btn btn-primary" />
+                </div>
+
+            </div>
           
         </div>
           

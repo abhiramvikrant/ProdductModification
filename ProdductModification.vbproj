@@ -144,9 +144,11 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="img\logo.JPG" />
     <Content Include="img\report.JPG" />
     <Content Include="img\ss3.jpg" />
     <Content Include="InvoiceDetails.html" />
+    <Content Include="Login.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
